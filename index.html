@@ -2,30 +2,54 @@
 <html>
 	<head>
 		<TITLE>
-			Google!
+			Google
 		</TITLE>
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
 	</head>
 
 	<BODY>
-		<DIV id="logo">
-		<img src="http://bit.ly/1IXtBN6" / > 
-		</DIV>
-
-		<div id="searchBar">
-			<form>
-				<INPUT type ="search" name ="googlesearch">
-			</form>
-		</div>
-
+		<!-- Header navigation bar html -->
 		<div id="navBar">
-			<ul>
-				<li><a href="#"> Gmail </a></li>
-				<li><a href="#"> Images </a></li>
-				<li><a class="grid" href="#"><img src="./img/grid.png" /></a></li>
-				<li ><a id="bell" href="#"><img src="./img/bell.jpg"></a></li>
-			</ul>
+				<a href="#"><img src="./img/bell.jpg"></a>
+				<a href="#"><img src="./img/grid.png"></a>
+				<a href="#"> Images </a>
+				<a href="#"> Gmail </a>	
 		</div>
+		<!-- Logo and search bar html -->
+		<DIV class="searchBar">
+			<img src="./img/logo.png" id="logo"> 
+
+			<div class="searchForm">
+				<form>
+					<INPUT class="searchField" type ="text" name ="googlesearch" height="30">
+				</form>
+			</div>
+
+			<div class="button">
+				<button>Google Search</button>
+				<button>I'm Feeling Lucky</button>
+			</div>
+		</div>
+
+		<!-- Footer html -->
+		<div id="footer">
+			<span id="footerLeft">
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+				<a href="#">About</a>
+			</span>
+
+			<span id="footerRight">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+				<a href="#">Use Google.com.my</a>
+
+			</span>
+
+
+		</div>
+		
 	</BODY>
 
 </html>
